@@ -1,5 +1,5 @@
 # FLIMNetwork
-###背景
+### 背景
 
  	由于 IM 系统数据传输采用了 Protobuf 协议，客户端需要配合进行 IM 网络层的改造；此外，现有的 IM 网络层也有诸多问题，比如:
 
@@ -57,7 +57,7 @@ UI 层：展示数据
 
   <div STYLE="page-break-after: always;"></div>
 
-###消息收发流程
+### 消息收发流程
 
 ![](https://ws1.sinaimg.cn/large/671cb35fgy1fp42rzj2kzj21tk0mcwht.jpg)
 
@@ -65,7 +65,7 @@ UI 层：展示数据
 
 <div STYLE="page-break-after: always;"></div>
 
-#####粘包处理
+##### 粘包处理
 
 ![](http://ww1.sinaimg.cn/bmiddle/87c01ec7gy1fp47ptnm5uj20go0qwq4v.jpg)
 
@@ -96,5 +96,3 @@ IM 服务器连接成功后，会开启一个轮询线程，每隔一段时间�
 
 
 参考链接：http://blog.makeex.com/2015/05/30/the-architecture-of-teamtalk-mac-client/
-
-​		   蘑菇街 TeamTalk
